@@ -19,7 +19,7 @@
     state: present
 
 - name: connnect to mongodb catalogue
-  ansible.builtin.command: mongosh {{ MONGODB_HOST }}.daws86s.fun --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
+  ansible.builtin.command: mongosh {{ MONGODB_HOST }} --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
   register: catalogue_output
 
 
