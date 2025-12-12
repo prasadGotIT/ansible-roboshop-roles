@@ -1,2 +1,2 @@
-RABBITMQ_USER: rabbitmq
+RABBITMQ_USER: roboshop
 RABBITMQ_PASS: roboshop123
